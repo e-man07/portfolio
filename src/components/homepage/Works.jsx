@@ -1,6 +1,6 @@
-import ibgroup from "/src/assets/images/ib-group-desktop.webp";
-import memento from "/src/assets/images/memento-desktop.webp";
-import acc from "/src/assets/images/acc-square.webp";
+import ibgroup from "/src/assets/images/image1.png";
+import memento from "/src/assets/images/image2.png";
+import acc from "/src/assets/images/image.png";
 import daddy from "/src/assets/images/godaddy-desktop.webp";
 import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
 import Projects from "../ui/Projects";
@@ -18,37 +18,37 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://musical-stroopwafel-1c2327.netlify.app/landing.html"
+            link="https://xmailer.xyz"
             img={ibgroup}
-            alt="revamped parker.com"
-            name="revamped parker.com"
-            type="Web Design • Frontend Development"
+            alt="X-Mailer"
+            name="X-Mailer"
+            type="Web3 | Full-Stack"
             year="2024"
-            tools="HTML • TailwindCSS • JavaScript • GSAP"
+            tools="NextJs • TailwindCSS • TypeScript"
 
           />
         </div>
         {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
-            link="https://mementostudio.netlify.app/"
+            link="https://athena-warts.vercel.app"
             img={memento}
-            alt="revamped subway.com"
-            name="revamped subway.com"
+            alt="Harry Potter themed Website"
+            name="Magical Quest"
             type="Web Design • Frontend Development"
             year="2024"
-            tools="HTML • TailwindCSS • JavaScript • GSAP"
+            tools="NextJs • TailwindCSS • TypeScript"
           />
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://realbusinessaccountants.netlify.app"
+            link="https://solana-x-drip.vercel.app/"
             img={acc}
-            alt="musicova"
-            name="musicova"
-            type="Web Design • Frontend Development"
+            alt="Solana"
+            name="SolanaXDrip"
+            type="Solana • Solana Faucet"
             year="2024"
-            tools="HTML • CSS • JavaScript • Figma"
+            tools="React • CSS • JavaScript"
           />
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
